@@ -26,7 +26,7 @@ def clean(val):
     return clean
 
 # keywords filter
-q = "#moboawards, mobos, 'mobo awards' @moboawards"
+q = "#moboawards, mobos, mobo awards, @moboawards"
 print ('Filtering the public timeline for keyword="%s"' % (q))
 
 twitter_stream = twitter.TwitterStream(auth=twitter_api.auth)
